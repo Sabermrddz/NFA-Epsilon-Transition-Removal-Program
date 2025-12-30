@@ -74,7 +74,8 @@ State |    a     |    b     |
 3   |    -     |    -     |
 
 
-![Example Output](images/example_output.png)
+![Example Output](images/example_output.PNG)
+
 
 
 
