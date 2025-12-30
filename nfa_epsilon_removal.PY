@@ -5,9 +5,10 @@ This program removes epsilon (ε) transitions from an NFA.
 
 """
 made by: 
-Mourad Mostafa Saber group 1 
-Moumen Mesbah  group 1 
+Mourad Mostafa Saber group 1 IA
+Moumen Mesbah  group 1  IA 
 
+You might find us in the second group because the lists haven't been updated since we changed groups.
 """
 
 
@@ -229,3 +230,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
