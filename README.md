@@ -56,22 +56,27 @@ done
 
 
 ### Example Output
+```
 === Epsilon Closures ===
 ε-closure(0) = [0, 1, 2]
 ε-closure(1) = [1]
 ε-closure(2) = [2]
 ε-closure(3) = [3]
+
 === NFA WITHOUT EPSILON TRANSITIONS ===
 States: [0, 1, 2, 3]
 Alphabet: ['a', 'b']
 Initial State: 0
 Final States: [3]
+
 Transition Table:
 State |    a     |    b     |
-0   |   [3]    |   [3]    |
-1   |   [3]    |    -     |
-2   |    -     |   [3]    |
-3   |    -     |    -     |
+---------------------------
+  0   |   [3]    |   [3]    |
+  1   |   [3]    |    -     |
+  2   |    -     |   [3]    |
+  3   |    -     |    -     |
+```
 
 
 ![Example Output](images/example_output.PNG)
